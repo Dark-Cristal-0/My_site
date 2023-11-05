@@ -1,0 +1,14 @@
+{
+  "name": "my_site",
+  "version": "1.0.0",
+  "description": "\"My site\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "\"Arsen Martinuk\"",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
