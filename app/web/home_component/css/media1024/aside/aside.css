@@ -1,0 +1,45 @@
+@import url("./../const.css");
+aside{
+    position: absolute;
+    right: 0;
+    width: var(--asideWidth);
+    height: calc(100% - var(--headerBottomHeight));
+    background-color: var(--main-color);
+}
+#asideMain{
+    border:1px red dotted;
+    height: 100%;
+    width: 40px;
+    float: left;
+}
+#asideMain div{
+    display: flex;
+    height: calc(100%/3);
+    width: 100%;
+    clear: both;
+    align-items: center;
+    justify-content: center;
+}
+#asideMain div button{
+    display: block;
+    clear: both;
+    width: 100%;
+    height: calc(100%/3);
+}
+#hoverForAside{
+    border:1px red dotted;
+    height: 100%;
+    width: 10px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+

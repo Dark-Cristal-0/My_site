@@ -1,0 +1,28 @@
+@import url('./../const.css');
+header{
+    background-color: var(--main-color);
+}
+#bottomHeader{
+    width: 100%;
+}
+#bottomHeader{
+    display: block;
+}
+#time{
+    float: left;
+}
+#time::after{
+    content: "";
+}
+#message{
+    float: left;
+}
+#message::before{
+    content: "___";
+}
+.clearFloat{
+    clear: both;
+}
+#batery{
+    float: right;
+}

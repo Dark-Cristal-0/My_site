@@ -14,7 +14,6 @@ const main =()=>{
             res.end("<h1 align='center'>Error 500</h1>")
         }
         console.log(`${req.url}`)
-        res.writeHead(200,{})
     })
     serv.listen(3000,"localhost")
 }

@@ -1,5 +1,8 @@
 :root{
-    --main-color:#0000ff
+    --main-color:rgba(70, 70, 86, 0.313);
+    --headerBottomHeight:20px;
+    --asideWidth:50px;
+
 }
 *{
     box-sizing: border-box;

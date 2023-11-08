@@ -1,4 +1,15 @@
-@import url('./const.css');
-@import url('./header/header.css');
 
-
+@media scren and (width>=1024px) {
+    @import url('./media1024/const.css');
+    @import url('./media1024/header/header.css');
+    @import url('./media1024/aside/aside.css');
+    body{
+        background-color: red;
+    }
+}
+@media scren and (width>=768) {
+    
+}
+@media scren and (width>=320) {
+    
+}
